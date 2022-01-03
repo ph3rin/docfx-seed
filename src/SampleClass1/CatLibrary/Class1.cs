@@ -122,7 +122,7 @@ namespace CatLibrary
         public Cat() { }
 
         /// <summary>
-        /// Constructor with one generic parameter.
+        /// Constructor with one generic parameter. Ok.
         /// </summary>
         /// <param name="ownType">This parameter type defined by class.</param>
         public Cat(T ownType) { }
