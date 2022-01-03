@@ -2,9 +2,9 @@ name: Azure Static Web Apps CI/CD
 
 on:
   push:
-    branches: [live]
+    branches: [master]
   pull_request:
-    branches: [live]
+    branches: [master]
 
 jobs:
   build:
