@@ -18,6 +18,7 @@ jobs:
           CI: true
       - name: build documentation
         run: |
+          docfx metadata
           docfx build
       - name: publish results
         uses: actions/upload-artifact@v2
