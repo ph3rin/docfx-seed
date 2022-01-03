@@ -25,6 +25,9 @@ jobs:
         with:
           name: _site
           path: _site/
+      - name: Copy routes
+        run: |
+          cp routes.json _site/routes.json
   deploy:
     runs-on: ubuntu-latest
     needs: build
